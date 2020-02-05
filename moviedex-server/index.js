@@ -31,6 +31,7 @@ app.get('/api/moviedex', jsonParser, (req, res) => {
 
 app.post('/api/moviedex', jsonParser, (req, res) => {
 	const {title, year, rating} = req.body;
+	console.log(req.body);
 
 	if(!title || !year || !rating) {
 		res.statusMessage = 'No se enviaron los campos necesarios para agregar una pelicula nueva al servidor';

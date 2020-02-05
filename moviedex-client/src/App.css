@@ -1,0 +1,17 @@
+.contentContainer {
+    display: flex;
+    flex-direction: row
+}
+
+#movies {
+    width: 50%;
+}
+
+#movieForm {
+    width: 50%;
+}
+
+.movie {
+    border: 1px solid black;
+    margin: 5px;
+}
